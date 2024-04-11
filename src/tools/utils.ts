@@ -11,16 +11,19 @@ export const clockHandList = [
     name: clockHand.HOUR,
     backgroundColor: "#ff3d58",
     height: pixelToRem(65),
+    width:pixelToRem(5)
   },
   {
     name: clockHand.MINUTE,
     backgroundColor: "#00a6ff",
     height: pixelToRem(85),
+    width:pixelToRem(3)
   },
   {
     name: clockHand.SECOND,
     backgroundColor: "#ffffff",
     height: pixelToRem(95),
+    width:pixelToRem(2)
   },
 ];
 
