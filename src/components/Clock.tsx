@@ -63,6 +63,7 @@ const Clock = ({ timeZone }: propType) => {
               style={{
                 backgroundColor: hand.backgroundColor,
                 height: hand.height,
+                width: hand.width
               }}
               transform={`rotate(${handRotation}deg)`}
             />
